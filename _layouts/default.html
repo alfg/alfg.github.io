@@ -1,6 +1,165 @@
----
-theme :
-  name : foundation
----
-{% include JB/setup %}
-{% include themes/foundation/index.html %}
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Alfred Gutierrez</title>
+  
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="/assets/stylesheets/foundation.css">
+  -->
+  
+  <!-- Included CSS Files (Compressed) -->
+  <link rel="stylesheet" href="/assets/stylesheets/foundation.min.css">
+  <link rel="stylesheet" href="/assets/stylesheets/app.css">
+  <link rel="stylesheet" href="/assets/stylesheets/font-awesome.css">
+
+  <script src="/assets/javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36907732-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<!-- Header and Nav -->
+  
+  <div class="row">
+    <div class="three columns">
+      <h1>Alfred Gutierrez</h1>
+    </div>
+    <div class="nine columns">
+      <ul class="link-list right">
+        <li><a href="http://www.github.com/alfg"><i class="icon-github"></i>Github</a></li>
+        <li><a href="http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b"><i class="icon-linkedin"></i>LinkedIn</a></li>
+        <li><a href="https://docs.google.com/document/d/1Bw-BiL5Fa1D25Xm6vobOop0VjkRmx2uJhtDICxiuUbM/edit"><i class="icon-file"></i>Resume</a></li>
+        <li><a href="mailto:alf.g.jr@gmail.com"><i class="icon-envelope"></i>Email</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- End Header and Nav -->
+  
+  
+  <div class="row">    
+    
+    <!-- Main Content Section -->
+    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+    <div class="nine columns push-three">
+      
+    {{ content }}
+
+    </div>
+    
+    
+    <!-- Nav Sidebar -->
+    <!-- This is source ordered to be pulled to the left on larger screens -->
+    <div class="three columns pull-nine">
+        <!-- <h1><img src="http://www.gravatar.com/avatar/922ef4d7e597243ff0de75bdfea9b424.png?size=200" /></h1> -->
+        
+      <ul class="side-nav">
+        <li><a href="/">Projects</a></li>
+        <li><a href="http://resume.github.com/?alfg">Github Resume</a></li>
+      </ul>
+      
+    </div>
+    
+  </div>
+    
+  <!-- Footer -->
+  
+  <footer class="row">
+    <div class="twelve columns">
+      <hr />
+      <div class="row">
+        <div class="six columns">
+          <p>&copy; Alfred Gutierrez</p>
+        </div>
+        <div class="five columns">
+          <ul class="link-list right">
+            <li><a href="http://www.github.com/alfg"><i class="icon-github"></i>Github</a></li>
+            <li><a href="http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b"><i class="icon-linkedin"></i>LinkedIn</a></li>
+            <li><a href="https://docs.google.com/document/d/1Bw-BiL5Fa1D25Xm6vobOop0VjkRmx2uJhtDICxiuUbM/edit"><i class="icon-file"></i>Resume</a></li>
+            <li><a href="mailto:alf.g.jr@gmail.com"><i class="icon-envelope"></i>Email</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+  </footer>
+  
+  
+  <!-- Included JS Files (Uncompressed) -->
+  <!--
+  
+  <script src="javascripts/jquery.js"></script>
+  
+  <script src="javascripts/jquery.foundation.mediaQueryToggle.js"></script>
+  
+  <script src="javascripts/jquery.foundation.forms.js"></script>
+  
+  <script src="javascripts/jquery.foundation.reveal.js"></script>
+  
+  <script src="javascripts/jquery.foundation.orbit.js"></script>
+  
+  <script src="javascripts/jquery.foundation.navigation.js"></script>
+  
+  <script src="javascripts/jquery.foundation.buttons.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tabs.js"></script>
+  
+  <script src="javascripts/jquery.foundation.tooltips.js"></script>
+  
+  <script src="javascripts/jquery.foundation.accordion.js"></script>
+  
+  <script src="javascripts/jquery.placeholder.js"></script>
+  
+  <script src="javascripts/jquery.foundation.alerts.js"></script>
+  
+  <script src="javascripts/jquery.foundation.topbar.js"></script>
+  
+  <script src="javascripts/jquery.foundation.joyride.js"></script>
+  
+  <script src="javascripts/jquery.foundation.clearing.js"></script>
+  
+  <script src="javascripts/jquery.foundation.magellan.js"></script>
+  
+  -->
+  
+  <!-- Included JS Files (Compressed) -->
+  <script src="/assets/javascripts/jquery.js"></script>
+  <script src="/assets/javascripts/foundation.min.js"></script>
+  
+  <!-- Initialize JS Plugins -->
+  <script src="/assets/javascripts/app.js"></script>
+
+  
+    <script>
+    $(window).load(function(){
+      $("#featured").orbit();
+    });
+    </script> 
+  
+</body>
+</html>
