@@ -15,3 +15,4 @@ or share. :)
 data inserted and sends an email notice.
 * [purge_s3_objects.py](/gists/purge_s3_objects.html) - Purges old objects/files
 stored on Amazon S3 based on date specified.
+* [.gitconfig](/gists/gitconfig.html) - My .gitconfig file to make `git diff`, `git branch`, and `git status` much more readable.
