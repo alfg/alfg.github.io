@@ -17,3 +17,4 @@ data inserted and sends an email notice.
 stored on Amazon S3 based on date specified.
 * [.gitconfig](/gists/gitconfig.html) - My .gitconfig file to make `git diff`, 
 `git branch`, and `git status` much more readable.
+* [update_transmission_blocklist.py](/gists/update_transmission_blocklist.html) - Updates Transmission's blocklist.
