@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jquery File Upload, Simplified. Demo.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <style>
+      body {
+        margin-top: 30px;
+      }
+      h1 {
+        font-size: 32px;
+      }
+      .well {
+        border: 1px dashed #B1B1B1;
+        width: 600px;
+      }
+      .bar {
+        width: 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container well">
+        <h1>jQuery-File-Upload, Simplified.</h1>
+        <p>Choose or drag a file here to upload.</p>
+        <div class="progress">
+          <div class="bar"></div>
+        </div>
+        <span class="status"></span>
+
+        <form action="http://upload.alfg.co/upload" name="images" enctype="multipart/form-data" class="direct-upload">
+          <input class="file-input" name="file" type="file">
+        </form>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="jquery.ui.widget.js"></script>
+    <script src="jquery.fileupload.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
