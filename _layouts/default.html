@@ -1,35 +1,23 @@
-<!DOCTYPE html>
-
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Alfred Gutierrez - Software Developer">
   <meta name="keywords" content="alfred gutierrez, alfg, alfred, gutierrez, web developer, developer, automation, qa, software">
   <meta name="author" content="Alfred Gutierrez, alfg.co">
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   <meta http-equiv="content-language" content="en"> 
 
-  <!-- Set the viewport width to device width for mobile -->
-  <meta name="viewport" content="width=device-width" />
 
-  <title>Alfred Gutierrez</title>
+  <title>Alfred Gutierrez | Web Developer</title>
   
-  <!-- Included CSS Files (Compressed) -->
-  <link rel="stylesheet" href="/assets/stylesheets/foundation.min.css">
-  <link rel="stylesheet" href="/assets/stylesheets/app.css">
-  <link rel="stylesheet" href="/assets/stylesheets/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/foundation.css" />
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <script src="assets/js/vendor/modernizr.js"></script>
 
-  <script src="/assets/javascripts/modernizr.foundation.js"></script>
-
-  <!-- IE Fix for HTML5 Tags -->
-  <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-    <script type="text/javascript">
-
+  <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-36907732-1']);
       _gaq.push(['_trackPageview']);
@@ -39,92 +27,55 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
-    </script>
+  </script>
 </head>
 <body>
 
-<!-- Header and Nav -->
-  
   <div class="row">
-    <div class="three columns">
-      <h4>Alfred Gutierrez</h4>
-    </div>
-    <div class="nine columns">
-      <ul class="link-list right">
-        <li><a href="http://www.github.com/alfg"><i class="icon-github"></i>Github</a></li>
-        <li><a href="http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b"><i class="icon-linkedin"></i>LinkedIn</a></li>
-        <li><a href="https://plus.google.com/105345190744903167441"><i class="icon-google-plus"></i>Google+</a></li>
-        <!--<li><a href="/resume.html"><i class="icon-file"></i>Resume</a></li>-->
-        <li><a href="mailto:alf.g.jr@gmail.com"><i class="icon-envelope"></i>Email</a></li>
-      </ul>
-    </div>
-  </div>
-  
-  <!-- End Header and Nav -->
-  
-  
-  <div class="row">    
-    
-    <!-- Main Content Section -->
-    <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
-    <div class="nine columns push-three">
-      
-    {{ content }}
-
-    </div>
-    
-    
     <!-- Nav Sidebar -->
-    <!-- This is source ordered to be pulled to the left on larger screens -->
-    <div class="three columns pull-nine">
-        <!-- <h1><img src="http://www.gravatar.com/avatar/922ef4d7e597243ff0de75bdfea9b424.png?size=200" /></h1> -->
-        
-      <ul class="side-nav">
-        <li><a href="/">Projects</a></li>
-        <li><a href="/gists/">Code Gists</a></li>
-        <!--<li><a href="/concepts/">Concepts</a></li>-->
-        <li><a href="http://resume.github.com/?alfg">Github Resume</a></li>
-      </ul>
-      
+    <div class="large-3 columns">
+      <div class="panel">
+          <h4>Alfred Gutierrez</h4>
+          <h6>Web Developer</h6>
+          <img class="th" src="https://en.gravatar.com/userimage/24847183/73b149a4fed90d9dafaf6aa784106e2e.jpg?size=200" alt="Alfred Gutierrez" />
+
+          <ul class="side-nav">
+            <li><a href="/">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+          </ul>
+
+          <!--<ul class="side-nav">-->
+              <!--<li><a href="http://www.github.com/alfg">Github</a></li>-->
+              <!--<li><a href="http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b">LinkedIn</a></li>-->
+              <!--<li><a href="mailto:alf.g.jr@gmail.com">Email</a></li>-->
+          <!--</ul>-->
+      </div>
     </div>
-    
+
+    <!-- Main Content Section -->
+    <div class="large-9 columns">
+        {{ content }}
+    </div>
   </div>
     
   <!-- Footer -->
-  
   <footer class="row">
     <div class="twelve columns">
       <hr />
       <div class="row">
         <div class="six columns">
-          <p>&copy; Alfred Gutierrez</p>
-        </div>
-        <div class="six columns">
-          <ul class="link-list right">
-            <li><a href="http://www.github.com/alfg"><i class="icon-github"></i>Github</a></li>
-            <li><a href="http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b"><i class="icon-linkedin"></i>LinkedIn</a></li>
-            <li><a href="https://plus.google.com/105345190744903167441"><i class="icon-google-plus"></i>Google+</a></li>
-            <!--<li><a href="/resume.html"><i class="icon-file"></i>Resume</a></li>-->
-            <li><a href="mailto:alf.g.jr@gmail.com"><i class="icon-envelope"></i>Email</a></li>
-          </ul>
+          <p>&copy; Alfred Gutierrez <a href="http://alfg.co">http://alfg.co</a></p>
         </div>
       </div>
     </div> 
   </footer>
   
-  <!-- Included JS Files (Compressed) -->
-  <script src="/assets/javascripts/jquery.js"></script>
-  <script src="/assets/javascripts/foundation.min.js"></script>
-  
-  <!-- Initialize JS Plugins -->
-  <script src="/assets/javascripts/app.js"></script>
-  
-    <script>
-    $(window).load(function(){
-      $("#featured").orbit();
-    });
-    </script> 
-  
+  <script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/foundation.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+      $(document).foundation();
+  </script>
 </body>
 </html>
