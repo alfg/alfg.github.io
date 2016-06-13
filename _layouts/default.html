@@ -1,82 +1,32 @@
 <!doctype html>
-<html class="no-js" lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Alfred Gutierrez - Software Developer">
-  <meta name="keywords" content="alfred gutierrez, alfg, alfred, gutierrez, web developer, developer, automation, qa, software">
-  <meta name="author" content="Alfred Gutierrez, alfg.co">
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-  <meta http-equiv="content-language" content="en"> 
-  <meta name="google-site-verification" content="1ww4hGu0hsJAN25vYAgPJe3wXtc7OmlzJdfC29Vv3ko" />
+<html lang="en">
 
+{% include head.html %}
 
-  <title>Alfred Gutierrez | Web Developer</title>
-  
-  <link rel="stylesheet" href="assets/css/foundation.css" />
-  <link rel="stylesheet" href="assets/css/app.css">
-  <link rel="stylesheet" href="assets/css/font-awesome.css">
-  <script src="assets/js/vendor/modernizr.js"></script>
-
-  <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-36907732-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-  </script>
-</head>
 <body>
+    {% include header.html %}
 
-  <div class="row">
-    <!-- Nav Sidebar -->
-    <div class="large-3 columns">
-      <div class="panel">
-          <h4>Alfred Gutierrez</h4>
-          <h6>Web Developer</h6>
-          <img class="th" src="http://www.gravatar.com/avatar/922ef4d7e597243ff0de75bdfea9b424.png?size=200" alt="Alfred Gutierrez" />
-
-          <ul class="side-nav">
-            <li><a href="/">About</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="projects.html">Projects</a></li>
-          </ul>
-
-          <!--<ul class="side-nav">-->
-              <!--<li><a href="http://www.github.com/alfg">Github</a></li>-->
-              <!--<li><a href="http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b">LinkedIn</a></li>-->
-              <!--<li><a href="mailto:alf.g.jr@gmail.com">Email</a></li>-->
-          <!--</ul>-->
-      </div>
-    </div>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#intro">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#">Skills</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#examples">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Main Content Section -->
-    <div class="large-9 columns">
+    <div class="container">
         {{ content }}
     </div>
-  </div>
-    
-  <!-- Footer -->
-  <footer class="row">
-    <div class="twelve columns">
-      <hr />
-      <div class="row">
-        <div class="six columns">
-          <p>&copy; Alfred Gutierrez <a href="http://alfg.co">http://alfg.co</a></p>
-        </div>
-      </div>
-    </div> 
-  </footer>
-  
-  <script src="assets/js/vendor/jquery.js"></script>
-  <script src="assets/js/foundation.min.js"></script>
-  <script src="assets/js/app.js"></script>
-  <script>
-      $(document).foundation();
-  </script>
+
+  {% include footer.html %}
 </body>
 </html>
