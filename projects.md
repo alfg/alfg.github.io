@@ -46,81 +46,66 @@ web sockets, and realtime data with [http://firebase.io](Firebase).
 * Firebase for realtime chat and detection of active players
 * Redis for tracking live and online users
 
-<h4>Formkit.net</h4>
-<ul class="side-nav compact">
-    <li><a href="http://zedhunt.com">http://dev.formkit.net</a></li>
-</ul>
-<p>A hosted backend for processing forms on static websites.</p>
-<p>This project was built for frontend developers who needed a solution for processing simple forms, such as
-contact forms without requiring a backend.</p>
-<p>This project is a work-in-progress and not yet released.</p>
-<ul>
-    <li>Frontend built with Bootstrap 2.0/jQuery</li>
-    <li>Backend built in Python/Django</li>
-    <li>Postgres as the database and Django ORM</li>
-    <li>Github login authentication</li>
-    <li>Integrations with Email, Dropbox, Google Drive, S3 and Box</li>
-</ul>
-<hr />
-<h4>AdminCraft</h4>
-<ul class="side-nav compact">
-    <li><a href="http://github.com/alfg/admincraft">http://github.com/alfg/admincraft</a></li>
-</ul>
-<p>A Minecraft administration web control panel and tools for administering Minecraft servers.</p>
-<ul>
-    <li>Custom frontend with jQuery UI components</li>
-    <li>Backend built in Python using the Flask framework</li>
-    <li>Reads/Writes to Minecraft flat configuration files</li>
-    <li>SQLite database for managing server backup tasks</li>
-    <li>Reads/Writes I/O to Minecraft's java console and logfiles for sending/reading messages</li>
-</ul>
-<hr />
+### Formkit
+A hosted backend for processing forms on static websites.
+This project was built for frontend developers who needed a solution for processing simple forms, such as
+contact forms without requiring a backend.
+This project is a work-in-progress and not yet released.
 
-<h4>Dropdot</h4>
-<ul class="side-nav compact">
-    <li><a href="http://dropdot.alfg.co">http://dropdot.alfg.co</a></li>
-    <li><a href="http://github.com/alfg/dropdot">http://github.com/alfg/dropdot</a></li>
-</ul>
-<p>A simple file-sharing demo built in NodeJS utilizing
-    <span data-tooltip class="has-tip"title="Cross-origin resource sharing (CORS) defines a way for client web
-    applications that are loaded in one domain to interact with resources in a different domain">CORS</span>
-    uploading on AWS S3. This project was built to demonstrate CORS uploading to other developers as a new
-    method of uploading files directly to S3.</p>
-<ul>
-    <li>Newer CSS3 and HTML5 features for some of the uploading animation, gradient and overall look and feel of the UI</li>
-    <li>NodeJS/Express backend for uploading and creating signed URLs</li>
-    <li>Node modules for mime-type detection, uuid generation and cryptography</li>
-    <li>Amazon S3 for Object/File storage with support for DreamObjects S3</li>
-</ul>
-<hr />
+* Frontend built with Bootstrap 2.0/jQuery
+* Backend built in Python/Django
+* Postgres as the database and Django ORM
+* Github login authentication
+* Integrations with Email, Dropbox, Google Drive, S3 and Box
 
-<h4>Jot</h4>
-<ul class="side-nav compact">
-    <li><a href="http://alfg.co/jot/">http://alfg.co/jot</a></li>
-    <li><a href="http://github.com/alfg/jot">http://github.com/alfg/jot</a></li>
-</ul>
-<p>A simple frontend application to save short, encrypted or encoded notes without a backend.</p>
-<p>This project was built to demonstrate saving and encrypting strings of text base64 encoded into the URL</p>
-<ul>
-    <li>Frontend built with the Skeleton CSS framework for a clean, minimal UI</li>
-    <li>No backend. All data is stored in a base64 string in the URL</li>
-    <li>Javascript implementation of the Blowfish cipher for encrypting messages with a key</li>
-</ul>
-<hr />
+### AdminCraft
+http://github.com/alfg/admincraft
 
-<h4>Murmur-REST</h4>
-<ul class="side-nav compact">
-    <li><a href="http://github.com/alfg/murmur-rest/">http://github.com/alfg/murmur-rest</a></li>
-</ul>
-<p>A <span title="Representational state transfer (REST) is an architectural style consisting of a coordinated
+A Minecraft administration web control panel and tools for administering Minecraft servers.
+
+* Custom frontend with jQuery UI components
+* Backend built in Python using the Flask framework
+* Reads/Writes to Minecraft flat configuration files
+* SQLite database for managing server backup tasks
+* Reads/Writes I/O to Minecraft's java console and logfiles for sending/reading messages
+
+### Dropdot
+http://dropdot.alfg.co
+http://github.com/alfg/dropdot
+A simple file-sharing demo built in NodeJS utilizing
+<span data-tooltip class="has-tip"title="Cross-origin resource sharing (CORS) defines a way for client web
+applications that are loaded in one domain to interact with resources in a different domain">CORS</span>
+uploading on AWS S3. This project was built to demonstrate CORS uploading to other developers as a new
+method of uploading files directly to S3.
+
+* Newer CSS3 and HTML5 features for some of the uploading animation, gradient and overall look and feel of the UI
+* NodeJS/Express backend for uploading and creating signed URLs
+* Node modules for mime-type detection, uuid generation and cryptography
+* Amazon S3 for Object/File storage with support for DreamObjects S3
+
+### Jot
+http://alfg.co/jot/
+http://github.com/alfg/jot
+
+A simple frontend application to save short, encrypted or encoded notes without a backend.
+This project was built to demonstrate saving and encrypting strings of text base64 encoded into the URL
+
+* Frontend built with the Skeleton CSS framework for a clean, minimal UI
+* No backend. All data is stored in a base64 string in the URL
+* Javascript implementation of the Blowfish cipher for encrypting messages with a key
+
+### Murmur-REST
+http://github.com/alfg/murmur-rest
+
+A <span title="Representational state transfer (REST) is an architectural style consisting of a coordinated
 set of architectural constraints applied to components, connectors, and data elements, within a distributed
-hypermedia system">RESTful</span> API for administering virtual Mumble servers. </p>
-<p>This project was built to administer Mumble servers for <a href="http://guildbit.com">Guildbit.com</a> and to separate the logic of administering
+hypermedia system">RESTful</span> API for administering virtual Mumble servers.
+
+This project was built to administer Mumble servers for <a href="http://guildbit.com">Guildbit.com</a> and to separate the logic of administering
 the mumble servers into a separate, open-source project for others to use. This project also helps simplify the process
-of using the Ice middleware platform.</p>
-<ul>
-    <li>Backend built in Python with the Flask framework</li>
-    <li>Python-zeroc-ice library for communicating to Mumble servers via the Ice middleware platform</li>
-    <li>All response endpoints are in JSON format with the RESTful design</li>
-    <li>HTTP Digest Authentication for securing endpoints</li>
-</ul>
+of using the Ice middleware platform.
+
+* Backend built in Python with the Flask framework
+* Python-zeroc-ice library for communicating to Mumble servers via the Ice middleware platform
+* All response endpoints are in JSON format with the RESTful design
+* HTTP Digest Authentication for securing endpoints
