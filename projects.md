@@ -31,6 +31,7 @@ software primarily intended for use while gaming.">Mumble servers</span>
 [Github](http://github.com/alfg/screenchop)
 
 An image sharing website for gamers to share their in-game screenshots with others.
+
 * Frontend built with Twitter Bootstrap 2.0
 * Backend built in Python using the Flask framework
 * MongoDB as the database
@@ -43,6 +44,7 @@ An image sharing website for gamers to share their in-game screenshots with othe
 A squad matchmaking platform to help DayZ players find public groups to game with.
 I built this project not only to help the DayZ community, but to learn more about frontend javascript frameworks,
 web sockets, and realtime data with [http://firebase.io](Firebase).
+
 * Frontend built with Bootstrap and Knockout.js
 * Backend built in Node/Express
 * MongoDB as the database and Mongoose as the ORM
