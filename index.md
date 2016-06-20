@@ -6,12 +6,13 @@ permalink: /
 
 ![Alfred Gutierrez](http://www.gravatar.com/avatar/922ef4d7e597243ff0de75bdfea9b424.png?size=200)
 
-Hello, my name is Alfred.  I am currently a Software Developer at [Fandango](http://fandango.com), working on [FandangoNOW](http://fandangonow.com). I've also worked as an Application Developer at Precision Development, a
+Hello, my name is Alfred.  I am currently a Senior Software Developer at [Fandango](http://fandango.com), working on [FandangoNOW](http://fandangonow.com). I've also worked as an Application Developer at Precision Development, a
 software consulting firm, and as Web Developer at [Phenomenex](http://www.phenomenex.com),
 a chromatography company in the biotechnology industry.
 
-I write software mostly for the web, with an emphasis on the frontend UI/UX. My weapons of choice are
-Python and Javascript, but I also have experience and knowledge in C#/ASP.NET, Node.js, Golang and PHP.
+I write software mostly for the web, and I am well-versed in Javascript, Python and Go.
+
+I also specialize in frontend & microservices architecture, media playback & packaging for protected content (DRM), and p2p-based technologies such as BitTorrent and Bitcoin.
 
 I'm always working on side projects in the evenings.  I'm currently working on
 <a href="http://guildbit.com">Guildbit</a>, a free, donation-based service for deploying temporary

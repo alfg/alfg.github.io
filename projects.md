@@ -5,10 +5,12 @@ permalink: /projects/
 ---
 
 My collection of side projects I've created over the years as a way to learn new programming languages,
-frameworks, and platforms. You can view the rest of my projects on my [Github page](https://github.com/alfg).
+frameworks, and platforms.
+
+I open-source all of my side projects on [Github page](https://github.com/alfg).
 
 ### GuildBit.com
-http://guildbit.com
+[guildbit.com](http://guildbit.com)
 
 A free, donation-based service for deploying temporary
 <span data-tooltip class="has-tip" title="Mumble is an open source, low-latency, high quality voice chat
@@ -24,8 +26,9 @@ software primarily intended for use while gaming.">Mumble servers</span>
 * Hosted on [http://digitalocean.com](Digital Ocean)
 
 ### Screenchop.com
-http://screenchop.com
-http://github.com/alfg/screenchop
+[Screenchop.com](http://screenchop.com)
+
+[Github](http://github.com/alfg/screenchop)
 
 An image sharing website for gamers to share their in-game screenshots with others.
 * Frontend built with Twitter Bootstrap 2.0
@@ -35,7 +38,7 @@ An image sharing website for gamers to share their in-game screenshots with othe
 * jQuery filedrop plugin used for realtime uploading
 
 ### Zedhunt.com
-http://zedhunt.com
+[Github](http://github.com/alfg/zedhunt)
 
 A squad matchmaking platform to help DayZ players find public groups to game with.
 I built this project not only to help the DayZ community, but to learn more about frontend javascript frameworks,
@@ -47,6 +50,8 @@ web sockets, and realtime data with [http://firebase.io](Firebase).
 * Redis for tracking live and online users
 
 ### Formkit
+[Github](http://github.com/alfg/formkit)
+
 A hosted backend for processing forms on static websites.
 This project was built for frontend developers who needed a solution for processing simple forms, such as
 contact forms without requiring a backend.
@@ -59,7 +64,9 @@ This project is a work-in-progress and not yet released.
 * Integrations with Email, Dropbox, Google Drive, S3 and Box
 
 ### AdminCraft
-http://github.com/alfg/admincraft
+[Github](http://github.com/alfg/admincraft)
+
+[Minecraft Wiki](http://minecraft.gamepedia.com/Programs_and_editors/Server_wrappers#AdminCraft)
 
 A Minecraft administration web control panel and tools for administering Minecraft servers.
 
@@ -70,8 +77,10 @@ A Minecraft administration web control panel and tools for administering Minecra
 * Reads/Writes I/O to Minecraft's java console and logfiles for sending/reading messages
 
 ### Dropdot
-http://dropdot.alfg.co
-http://github.com/alfg/dropdot
+[Demo](http://dropdot.alfg.co)
+
+[Github](http://github.com/alfg/dropdot)
+
 A simple file-sharing demo built in NodeJS utilizing
 <span data-tooltip class="has-tip"title="Cross-origin resource sharing (CORS) defines a way for client web
 applications that are loaded in one domain to interact with resources in a different domain">CORS</span>
@@ -84,8 +93,9 @@ method of uploading files directly to S3.
 * Amazon S3 for Object/File storage with support for DreamObjects S3
 
 ### Jot
-http://alfg.co/jot/
-http://github.com/alfg/jot
+[Demo](http://alfg.co/jot/)
+
+[Github](http://github.com/alfg/jot)
 
 A simple frontend application to save short, encrypted or encoded notes without a backend.
 This project was built to demonstrate saving and encrypting strings of text base64 encoded into the URL
@@ -95,7 +105,7 @@ This project was built to demonstrate saving and encrypting strings of text base
 * Javascript implementation of the Blowfish cipher for encrypting messages with a key
 
 ### Murmur-REST
-http://github.com/alfg/murmur-rest
+[Github](http://github.com/alfg/murmur-rest)
 
 A <span title="Representational state transfer (REST) is an architectural style consisting of a coordinated
 set of architectural constraints applied to components, connectors, and data elements, within a distributed

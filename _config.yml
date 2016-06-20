@@ -17,3 +17,6 @@ linkedin_profile: http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b
 
 # Build settings
 markdown: kramdown
+
+gems:
+    - jekyll-feed
