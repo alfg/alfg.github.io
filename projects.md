@@ -25,6 +25,39 @@ software primarily intended for use while gaming.">Mumble servers</span>
 * AWS as the mailer service and backup storage</li>
 * Hosted on [http://digitalocean.com](Digital Ocean)
 
+
+### srv
+https://github.com/alfg/srv
+A modern, opinionated and simple microservices stack built on Express.
+
+* Node/Express
+* CLI and Framework for building microservices
+* ES6/Babel
+* AVA tests
+
+
+### RadicalFM
+https://github.com/alfg/radicalfm
+
+A Streaming Peer-to-Peer Desktop Music Player based on Magnet URIs.
+
+* Built with Electron
+* React/Redux
+* Node/ES6/Babel
+* P2P Networking
+
+
+### Spotlist.TV
+https://github.com/alfg/spotlistTV
+
+Play Spotify Playlists on Youtube.
+
+* Node/Express
+* ES6/Babel/Gulp
+* Youtube/Spotify API
+* Backbone/Marionette
+
+
 ### Screenchop.com
 [Screenchop.com](http://screenchop.com)
 
