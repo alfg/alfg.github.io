@@ -27,7 +27,7 @@ software primarily intended for use while gaming.">Mumble servers</span>
 
 
 ### srv
-https://github.com/alfg/srv
+[Github](https://github.com/alfg/srv)
 A modern, opinionated and simple microservices stack built on Express.
 
 * Node/Express
@@ -37,7 +37,7 @@ A modern, opinionated and simple microservices stack built on Express.
 
 
 ### RadicalFM
-https://github.com/alfg/radicalfm
+[Github](https://github.com/alfg/radicalfm)
 
 A Streaming Peer-to-Peer Desktop Music Player based on Magnet URIs.
 
@@ -48,7 +48,7 @@ A Streaming Peer-to-Peer Desktop Music Player based on Magnet URIs.
 
 
 ### Spotlist.TV
-https://github.com/alfg/spotlistTV
+[Github](https://github.com/alfg/spotlistTV)
 
 Play Spotify Playlists on Youtube.
 
