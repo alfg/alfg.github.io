@@ -8,11 +8,11 @@ My collection of skills I've learned over time throughout my projects, work hist
 solving various problems.
 
 ## General
-* Software Architecture for Web, Desktop and Command Line
-* RESTful Standards
+* Software Architecture for Web, Desktop and Command Line Applications
+* RESTful Standards & Guidelines
 * Code Profiling Performance & Optimization
 * Design Patterns
-* Container Environments (Docker)
+* Container Environments (Docker/rkt)
 * Agile/Scrum & Project Management
 * Git Workflow and Branching Strategies
 * Well-versed in Client & Server Technologies
@@ -20,12 +20,12 @@ solving various problems.
 ## Specialized Skills
 * Microservices Architecture & Design
 * Frontend Architecture
-* Low-Level HTTP APIs
-* Digital Media Content Playback - DASH & SmoothStreaming Players
-* Digital Media Content Packaging - DASH/SmoothStreaming/HLS
-* Digital Media DRM - Widevine, Playready
+* Low-Level HTTP APIs & Specification
+* Digital Media Content Playback - DASH, HLS & HTTP Smooth Streaming Players
+* Digital Media Content Packaging - DASH / HTTP Smooth Streaming / HLS
+* Digital Media DRM - Widevine, Playready, Fairplay, Clear Key and AES-based DRM
 * P2P Protocols BitTorrent, IPFS & Bitcoin
-* Distributed Applications and Decentralized Programming
+* Distributed Applications and Decentralized Infrastructure
 * Javascript/Node
 
 ### Frontend
@@ -96,7 +96,7 @@ solving various problems.
 * SSH/SFTP/FTP
 
 #### **Hosted Platforms**
-* Windows Azure - Table and Blob Storage
+* Windows Azure - Table and Blob Storage, Media Services (AMS)
 * Amazon Web Services - S3, EC2, SES, RDS, ElasticCache, ECS
 * Firebase
 * DigitalOcean and Linode for VPS hosting
