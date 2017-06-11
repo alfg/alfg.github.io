@@ -37,8 +37,8 @@ A modern, opinionated and simple microservices stack built on Express.
 * AVA tests
 
 
-### RadicalFM
-[Github](https://github.com/alfg/radicalfm)
+### PeerFM
+[Github](https://github.com/alfg/peerfm)
 
 A Streaming Peer-to-Peer Desktop Music Player based on Magnet URIs.
 
