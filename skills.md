@@ -41,6 +41,7 @@ solving various problems.
 * **HTML5** &mdash; CSS3, Data attributes, Audio/Video support, Local Storage, Websockets
 * **JS/CSS Preprocessors** &mdash; CoffeeScript, LESS, SASS, Stylus
 * **JS Tooling** &mdash; Gulp, Grunt, NPM, Babel, WebPack, Browserify
+* **Desktop** &mdash; Electron
 * ES6, ES2015, ES7+
 
 ### Backend
@@ -62,6 +63,7 @@ solving various problems.
     * **Libraries** &mdash; Request, Socket.io, uuid, crypto
     * **Templates** &mdash; Jade, Hogan, Mustache, EJS, Handlebars, Underscore
     * **ECMA** &mdash; ES5, ES6, ES2016, ESNEXT
+    * **Desktop** &mdash; Electron
 * #### **C#**
     * ASP.NET MVC4/5
     * Razor
