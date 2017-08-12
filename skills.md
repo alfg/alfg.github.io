@@ -24,6 +24,7 @@ solving various problems.
 * Digital Media Content Playback - DASH, HLS & HTTP Smooth Streaming Players
 * Digital Media Content Packaging - DASH / HTTP Smooth Streaming / HLS
 * Digital Media DRM - Widevine, Playready, Fairplay, Clear Key and AES-based DRM
+* Audio/Video Technologies and Tools
 * P2P Protocols BitTorrent, IPFS & Bitcoin
 * Distributed Applications and Decentralized Infrastructure
 * Javascript/Node
