@@ -28,6 +28,7 @@ solving various problems.
 * P2P Protocols BitTorrent, IPFS & Bitcoin
 * Distributed Applications and Decentralized Infrastructure
 * Javascript/Node
+* Golang
 
 ### Frontend
 * **CSS Frameworks** - Bootstrap, YUI PURE, Foundation, Skeleton, 960 Grid
