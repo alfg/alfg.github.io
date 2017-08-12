@@ -9,6 +9,33 @@ frameworks, and platforms.
 
 I open-source all of my side projects on [Github page](https://github.com/alfg).
 
+
+### SomaFM
+[Github](https://github.com/alfg/somafm)
+
+An unofficial [SomaFM](http://somafm.com/) Desktop Player.
+
+I wasn't a fan of the SomaFM Web Player, so I built a desktop player inspired by the Spotify UI.
+
+* Built with Node6+/Electron
+* React/Redux
+* Cross platform via electron-builder
+* Webpack/yarn/npm for tooling
+* Binary downloads available on [release](https://github.com/alfg/somafm/releases) page as well as on my [homebrew tap](https://github.com/alfg/homebrew-tap)
+* Based on [electron-react-boilerplate](https://github.com/chentsulin/electron-react-boilerplate)
+
+
+### Overwatch-API
+[Github](https://github.com/alfg/overwatch-api)
+
+An unofficial API for Overwatch Player profiles & statistics.
+
+* Built using `srv` (NodeJS Stack)
+* ES2015/Babel
+* Simple HTTP API
+* apiDoc Documentation
+* Hosted on [Heroku](https://ow-api.herokuapp.com/docs/)
+
 ### GuildBit.com
 [guildbit.com](http://guildbit.com)
 
@@ -23,7 +50,7 @@ software primarily intended for use while gaming.">Mumble servers</span>
 * Redis as the message broker for Celery and caching store
 * Python-requests for sending RESTful requests to the [http://github.com/alfg/murmur-rest](murmur-rest) backend
 * AWS as the mailer service and backup storage</li>
-* Hosted on [http://digitalocean.com](Digital Ocean)
+* Hosted on [Digital Ocean](http://digitalocean.com)
 
 
 ### srv
@@ -58,6 +85,28 @@ Play Spotify Playlists on Youtube.
 * Youtube/Spotify API
 * Backbone/Marionette
 
+### Widevine
+[Github](https://github.com/alfg/widevine)
+
+A Golang API wrapper over the [Widevine Cloud](http://www.widevine.com/) service from Google. I built this project to better understand the Widevine protection specification.
+
+* Built in Go
+
+### Bifextract
+[Github](https://github.com/alfg/bifextract)
+
+A [BIF](https://sdkdocs.roku.com/display/sdkdoc/Trick+Mode+Support) extractor. Extracts and exports images from a BIF.
+
+This project was built to understand the byte structure of the BIF format.
+
+* Built in Go
+
+### Blockchain Golang Client
+[Github](https://github.com/alfg/blockchain)
+
+A Go (golang) Client for the [Blockchain.info](https://blockchain.info) API.
+
+* Built in Go
 
 ### Screenchop.com
 [Screenchop.com](http://screenchop.com)
@@ -139,6 +188,18 @@ This project was built to demonstrate saving and encrypting strings of text base
 * Frontend built with the Skeleton CSS framework for a clean, minimal UI
 * No backend. All data is stored in a base64 string in the URL
 * Javascript implementation of the Blowfish cipher for encrypting messages with a key
+
+### Mumble Widget
+[Github](https://github.com/alfg/mumble-widget)
+[Demo](http://mumble-widget.guildbit.com/)
+
+Mumble-widget is a web-based channel viewer widget to display active users on your Mumble server.
+
+This project was built so Mumble Server administrators can embed a simple Javascript widget on their page using just a few lines of HTML/JS.
+
+* Built in Javascript
+* Grunt for creating compilation/minification/distribution files
+* Hosted scripts on AWS S3 and Cloudfront CDN
 
 ### Murmur-REST
 [Github](http://github.com/alfg/murmur-rest)
