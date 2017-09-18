@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-My collection of side projects I've created over the years as a way to learn new programming languages,
+My collection of side projects I've created over the years as a method of learning new programming languages,
 frameworks, and platforms.
 
 I open-source all of my side projects on [Github](https://github.com/alfg).
