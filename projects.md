@@ -1,6 +1,5 @@
 ---
-title: Projects
-permalink: /projects/
+layout: default
 ---
 
 My collection of side projects I've created over the years as a method of learning new programming languages,
