@@ -6,7 +6,7 @@ permalink: /
 
 ![Alfred Gutierrez](http://www.gravatar.com/avatar/922ef4d7e597243ff0de75bdfea9b424.png?size=200)
 
-Hello, my name is Alfred.  I am currently a Software Architect at [Fandango](http://fandango.com), working on [FandangoNOW](http://fandangonow.com) in content packaging, delivery and DRM as well as playback experience.
+Hello, my name is Alfred.  I am currently a Software Architect at [Fandango](http://fandango.com), working on [FandangoNOW](http://fandangonow.com) in Content Engineering.
 
 I write software mostly for the web, and I am well-versed in Javascript/Node, Python, C# and Go.
 
