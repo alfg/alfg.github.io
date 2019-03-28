@@ -12,7 +12,7 @@ I write software mostly for the web, and I am well-versed in Javascript/Node, Py
 
 I also specialize in frontend & microservices architecture, and video & audio technologies.
 
-I'm always working on side projects in the evenings. You can check out more of my recent <a href="projects">side projects</a> and open-source software on
+I'm always working on side projects in the evenings. You can check out more of my recent <a href="https://github.com/alfg?tab=repositories">side projects</a> and open-source software on
 <a href="http://github.com/alfg">Github</a>.
 
 I have strong views in minimalistic design & architecture. I value modular, minimal, and well-documented code.
