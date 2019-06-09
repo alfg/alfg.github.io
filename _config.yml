@@ -21,3 +21,5 @@ markdown: kramdown
 gems:
     - jekyll-feed
     - jekyll-sitemap
+
+include: [".well-known"]
