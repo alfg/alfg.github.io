@@ -21,6 +21,6 @@ Some of my hobbies and interests outside of programming are gaming, building com
 
 You can find me on [Github](http://github.com/alfg),
 [LinkedIn](http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b), or
-[Email](mailto:alfg.g.jr@gmail.com).
+[Email](mailto:alf.g.jr@gmail.com).
 
 I currently live in Los Angeles, CA.
