@@ -4,20 +4,19 @@ title: About Me
 permalink: /
 ---
 
-![Alfred Gutierrez](http://www.gravatar.com/avatar/922ef4d7e597243ff0de75bdfea9b424.png?size=200)
+![Alfred Gutierrez](https://avatars1.githubusercontent.com/u/702541?s=200&u=ad97a0d5083d0876bee0168af6426f16c3f43e32&v=4)
 
-Hello, my name is Alfred.  I am currently a Software Architect at [Fandango](http://fandango.com), working on [FandangoNOW](http://fandangonow.com) in Content Engineering.
+Open Source Software enthusiast specializing in streaming multimedia technologies, currently working as a Software Architect on the Content Engineering team at Fandango. 
 
-I write software mostly for the web, and I am well-versed in Javascript/Node, Python, C# and Go.
-
-I also specialize in frontend & microservices architecture, and video & audio technologies.
-
-I'm always working on side projects in the evenings. You can check out more of my recent <a href="https://github.com/alfg?tab=repositories">side projects</a> and open-source software on
-<a href="http://github.com/alfg">Github</a>.
-
-I have strong views in minimalistic design & architecture. I value modular, minimal, and well-documented code.
-
-Some of my hobbies and interests outside of programming are gaming, building computers, video & audio hardware, cars and coffee.
+* Designing software in Go, JavaScript/Node, Python, Rust, C, and C#.
+* Strong views and methodologies in minimalistic design & architecture. Values modular, minimal and well-documented code.
+* Well-versed in many web technologies and frameworks, backend, infrastructure, and low-level programming.
+* Knowledgeable and experienced with many AWS services.
+* Experienced building and designing performant, large-scale applications and infrastructure delivering streaming video to millions of customers.
+* Swift debugging & troubleshooting skills to resolve technical issues and incidents quickly.
+* Favorite tools are Vim, FFmpeg and VLC.
+* Contributing and maintaining open source software on Github at https://github.com/alfg
+* Currently living in Los Angeles, CA
 
 You can find me on [Github](http://github.com/alfg),
 [LinkedIn](http://www.linkedin.com/pub/alfred-gutierrez/58/ba1/93b), or
