@@ -7,10 +7,10 @@ permalink: /video-tools/
 I develop and maintain a collection of open source multimedia tools hosted on GitHub. Hopefully you may find these useful. 🙂
 
 #### Web
-* [MP4 Inspector](https://github.com/alfg/mp4-inspector) &mdash; A Web-based MP4 File Inspector. Powered by Rust, Vue and Web Assembly!
-* [FFmpeg Commander](https://github.com/alfg/ffmpeg-commander) &mdash; A simple web UI for generating FFmpeg commands 
-* [Vue Player](https://github.com/alfg/vue-player) &mdash; Adaptive Streaming Test Player 
-* [Media Cast](https://github.com/alfg/mediacast) &mdash; Google Cast - Chrome Sender & CAF Player for testing Media Playback 
+* [MP4 Inspector](https://alfg.github.io/mp4-inspector) &mdash; A Web-based MP4 File Inspector. Powered by Rust, Vue and Web Assembly!
+* [FFmpeg Commander](https://alfg.github.io/ffmpeg-commander) &mdash; A simple web UI for generating FFmpeg commands 
+* [Vue Player](https://alfg.github.io/vue-player) &mdash; Adaptive Streaming Test Player 
+* [Media Cast](https://alfg.github.io/mediacast) &mdash; Google Cast - Chrome Sender & CAF Player for testing Media Playback 
 
 #### Platform
 * [Open Encoder](https://github.com/alfg/openencoder) &mdash; Open Source Cloud Encoder 
