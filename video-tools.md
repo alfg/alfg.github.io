@@ -30,4 +30,5 @@ I develop and maintain a collection of open source multimedia tools hosted on Gi
 * [bifextract](https://github.com/alfg/bifextract) &mdash; CLI utility for extracting images from a BIF file.
 
 #### Guides
-* [mp4-intro](https://github.com/alfg/mp4-intro) &mdash; [WIP] A technical intro the MP4 container byte structure. 
+* [mp4-intro](https://github.com/alfg/mp4-intro) &mdash; [WIP] A technical intro the MP4 container byte structure.
+* [FFmpeg for Instagram](https://gist.github.com/alfg/1fb80cd89c70602c0291e5743c5df9cd) &mdash; A guide and collection of FFmpeg scripts for encoding video for Instagram.
