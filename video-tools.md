@@ -8,6 +8,7 @@ I develop and maintain a collection of open source multimedia tools hosted on Gi
 
 #### Web
 * [MP4 Inspector](https://alfg.github.io/mp4-inspector) &mdash; A Web-based MP4 File Inspector. Powered by Rust, Vue and Web Assembly!
+* [FFProbe Wasm](https://github.com/alfg/ffprobe-wasm) &mdash; A Web-based FFProbe. Powered by FFmpeg, Vue and Web Assembly!
 * [FFmpeg Commander](https://alfg.github.io/ffmpeg-commander) &mdash; A simple web UI for generating FFmpeg commands 
 * [Vue Player](https://alfg.github.io/vue-player) &mdash; Adaptive Streaming Test Player 
 * [Media Cast](https://alfg.github.io/mediacast) &mdash; Google Cast - Chrome Sender & CAF Player for testing Media Playback 
