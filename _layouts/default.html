@@ -1,16 +1,11 @@
-<!doctype html>
-<html lang="en">
-
-{% include head.html %}
-
-<body>
-    {% include header.html %}
-
-    <!-- Main Content Section -->
-    <div class="container">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body a="{{ site.theme_config.appearance | default: "auto" }}">
+    <main class="page-content" aria-label="Content">
+      <div class="w">
         {{ content }}
-    </div>
-
-  {% include footer.html %}
-</body>
+      </div>
+    </main>
+  </body>
 </html>
