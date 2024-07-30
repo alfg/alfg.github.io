@@ -8,7 +8,7 @@ permalink: /
 
 ![Alfred Gutierrez](https://avatars1.githubusercontent.com/u/702541?s=200&u=ad97a0d5083d0876bee0168af6426f16c3f43e32&v=4)
 
-Open Source Software enthusiast specializing in streaming multimedia technologies, currently working as a Software Architect on the Video Engineering teams at [Fandango](https://www.fandango.com) and [PeacockTV](https://www.peacocktv.com).
+Open Source Software enthusiast specializing in streaming multimedia technologies, currently working as a Software Architect on the Video Engineering team at [PeacockTV](https://www.peacocktv.com).
 
 * Designing software in Go, JavaScript/Node, Python, Rust, C, and C#.
 * Strong views and methodologies in minimalistic design & architecture. Values modular, minimal and well-documented code.
