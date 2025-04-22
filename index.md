@@ -15,7 +15,7 @@ Open Source Software enthusiast specializing in streaming multimedia technologie
 * Knowledgeable and experienced with many AWS services.
 * Experienced building and designing performant, large-scale applications and infrastructure delivering streaming video to millions of customers.
 * Quick debugging & troubleshooting skills to resolve technical issues and incidents quickly.
-* US Patent holder and inventor for ad transocding multimedia technologies
+* US Patent holder and inventor for ad transcoding multimedia technologies
 
 It is my passion to build open source software. I create applications, libraries and tools that others may find useful. Most of my work is focused around video and audio technologies with the occasional [fun project](https://opendrinks.io). 
 
