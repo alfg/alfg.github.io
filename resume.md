@@ -41,7 +41,7 @@ Los Angeles, CA - Remote
 - Design project architecture, guidelines, and best practices for creating cloud native projects in Go
 - Design and developed media encoding and packaging solutions to deliver streaming content to millions of end users
 - Design and developed tools to transform DASH and HLS content on-demand
-- Patent Inventor - Video Streaming Ad Transcode Platform
+- Patent Inventor - Video Streaming Ad Encoding Platform
 
 Go, Python, NodeJS, TypeScript, JavaScript, AWS, GCP, Kubernetes, Docker
 
@@ -77,7 +77,7 @@ HTML, Javascript, C#, ASP.NET, Node, AWS
 _Web Developer_
 Torrance, CA
 
- Responsible for all front-end development
+_ Responsible for all front-end development
 - Design, develop, and implement HTML, CSS and Javascript/jQuery code
 - Design and improve User Experience/User Interface based on product specification
 - Maintain ASP.NET and C# Web Applications hosted in Microsoft Azure
